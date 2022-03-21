@@ -60,13 +60,13 @@ android:layout_marginEnd="10dp">
 
 </com.google.android.material.button.MaterialButton>
     <Button
-        android:id="@+id/cancel_button"
+        android:id="@+id/material_timepicker_cancel_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|right"
         android:layout_margin="16dp"
-        android:drawableLeft="@drawable/ic_cancel"
-        android:text="HUỶ"
+        android:drawableLeft="@drawable/ic_baseline_subdirectory_arrow_left_24"
+        android:text="Trở về"
         style="?attr/materialButtonOutlinedStyle"
         />
 </LinearLayout>

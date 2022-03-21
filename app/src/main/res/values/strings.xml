@@ -9,6 +9,6 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="name">Họ và tên :$c </string>
-    <string name="grade">Lớp : %c</string>
+    <string name="name">Họ và tên :%1$s </string>
+    <string name="grade">Lớp sinh hoạt : %1$s</string>
 </resources>

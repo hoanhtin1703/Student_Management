@@ -1,5 +1,6 @@
 package com.example.student_management
 
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.text.TextUtils
@@ -22,6 +23,7 @@ import com.example.student_management.model.Student_Entity
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.list_item.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -51,6 +53,7 @@ class MainActivity : AppCompatActivity(), CoroutineScope, View.OnClickListener {
 
         floating_action_button.setOnClickListener(this)
         search_button.setOnClickListener(this)
+        getAllNotes()
     }
 
     override fun onResume() {
@@ -64,6 +67,7 @@ class MainActivity : AppCompatActivity(), CoroutineScope, View.OnClickListener {
             val notes: List<Student_Entity>? = noteDB?.studentDao()?.GetAll()
             if (notes != null) {
                 adapter?.setNote(notes)
+
             }
         }
     }
@@ -84,9 +88,17 @@ class MainActivity : AppCompatActivity(), CoroutineScope, View.OnClickListener {
             search_button -> {
                 findNote()
             }
+
         }
 
 
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (resultCode==Activity.RESULT_OK ){
+            getAllNotes()
+        }
     }
 
     fun findNote() = launch {

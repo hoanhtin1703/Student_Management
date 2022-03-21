@@ -49,27 +49,15 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:paddingTop="30dp"
+            <ImageView
+                android:id="@+id/imv_menu_option"
+                android:layout_gravity="center"
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:src="@drawable/ic_baseline_more_vert_24">
 
-                <ImageView
-android:id="@+id/imv_edit"
-                    android:layout_width="30dp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_baseline_edit_24">
-
-                </ImageView>
-
-                <ImageView
-                    android:id="@+id/imv_delete"
-                    android:paddingStart="20dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_baseline_delete_24"></ImageView>
-            </LinearLayout>
+            </ImageView>
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 </androidx.appcompat.widget.LinearLayoutCompat>

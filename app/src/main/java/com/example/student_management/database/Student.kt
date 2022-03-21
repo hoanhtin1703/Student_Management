@@ -1,10 +1,7 @@
 package com.example.student_management.database
 
 import android.R
-import androidx.room.Dao
-import androidx.room.Delete
-import androidx.room.Insert
-import androidx.room.Query
+import androidx.room.*
 import com.example.student_management.model.Student_Entity
 
 @Dao
@@ -17,4 +14,6 @@ suspend fun findNoteByTitle(title: String): Student_Entity
 suspend fun insert(student : Student_Entity)
 @Delete
 suspend fun delete(student: Student_Entity)
+@Update
+suspend fun update(student: Student_Entity)
 }
