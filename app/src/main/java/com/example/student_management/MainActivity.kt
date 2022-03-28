@@ -6,24 +6,16 @@ import android.os.Bundle
 import android.text.TextUtils
 
 
-import android.view.Menu
-import android.view.MenuItem
 import android.view.View
 
-import android.widget.Toast
-import androidx.annotation.MainThread
 import androidx.appcompat.app.AppCompatActivity
 
-import androidx.navigation.Navigation.findNavController
-import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.student_management.adapter.ListAdapter
 import com.example.student_management.database.Student_Database
 import com.example.student_management.model.Student_Entity
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.list_item.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -51,7 +43,7 @@ class MainActivity : AppCompatActivity(), CoroutineScope, View.OnClickListener {
         rcv_list.adapter = adapter
         rcv_list.layoutManager = LinearLayoutManager(this)
 
-        floating_action_button.setOnClickListener(this)
+        add_button.setOnClickListener(this)
         search_button.setOnClickListener(this)
         getAllNotes()
     }
@@ -80,8 +72,8 @@ class MainActivity : AppCompatActivity(), CoroutineScope, View.OnClickListener {
 
     override fun onClick(p0: View?) {
         when (p0) {
-            floating_action_button -> {
-                val intent = Intent(this, first_fragment::class.java)
+            add_button -> {
+                val intent = Intent(this, new_activity::class.java)
                 startActivity(intent)
             }
 

@@ -45,18 +45,41 @@
                         android:textAppearance="?attr/textAppearanceBody2"
 
                         />
+                    <TextView
+                        android:id="@+id/rs_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:textAppearance="?attr/textAppearanceBody2"
+
+                        />
+                    <TextView
+                        android:id="@+id/rs_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:textAppearance="?attr/textAppearanceBody2"
+
+                        />
                 </LinearLayout>
 
             </LinearLayout>
 
             <ImageView
                 android:id="@+id/imv_menu_option"
-                android:layout_gravity="center"
-
-                android:layout_width="match_parent"
+             android:layout_gravity="center"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_baseline_more_vert_24">
+                android:src="@drawable/ic_baseline_edit_24">
 
+            </ImageView>
+            <ImageView
+                android:layout_marginStart="20dp"
+                android:id="@+id/imv_delete"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_delete_24">
             </ImageView>
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>

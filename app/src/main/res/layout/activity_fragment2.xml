@@ -24,7 +24,7 @@
             android:id="@+id/edt_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nhập Tên Sinh Viên"
+            android:hint=" Tên Sinh Viên"
             />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -43,11 +43,48 @@
             android:id="@+id/edt_grade"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nhập Lớp Sinh Hoạt"
+            android:hint=" Lớp Sinh Hoạt"
             />
 
     </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:padding="10dp"
+        app:startIconDrawable="@drawable/ic_email_24"
+        android:id="@+id/outlinedTextField3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:endIconMode="clear_text"
+        app:helperText="Bắt Buộc *"
+        app:helperTextTextColor="@color/red"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Địa Chỉ Email"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:padding="10dp"
+        app:startIconDrawable="@drawable/ic_address"
+        android:id="@+id/outlinedTextField4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:endIconMode="clear_text"
+        app:helperText="Bắt Buộc *"
+        app:helperTextTextColor="@color/red"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Địa Chỉ Thường Trú"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_update"
         android:layout_width="match_parent"

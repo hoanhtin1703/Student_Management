@@ -13,7 +13,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:src="@drawable/daotao"></ImageView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -66,14 +69,14 @@
             app:layoutManager="LinearLayoutManager">
 
         </androidx.recyclerview.widget.RecyclerView>
-    </androidx.appcompat.widget.LinearLayoutCompat>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/add_button"
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floating_action_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|right"
-        android:layout_margin="16dp"
-        app:srcCompat="@android:drawable/ic_input_add"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm Sinh Viên "
+            android:layout_gravity="center">
+        </com.google.android.material.button.MaterialButton>
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

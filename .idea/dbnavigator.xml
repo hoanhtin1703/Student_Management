@@ -30,12 +30,28 @@
     <connection id="c2c6ce10-900f-42d7-9a9d-d072506717ae">
       <console name="Connection" type="STANDARD" schema="main" session="Main" />
     </connection>
+    <connection id="2d336dd4-2f38-4bf0-8072-10092d78c704">
+      <console name="Connection 1" type="STANDARD" schema="main" session="Main" />
+    </connection>
+    <connection id="97f29fa9-4997-4ecc-bb24-76fe03ec2faf">
+      <console name="Connection 2" type="STANDARD" schema="main" session="Main" />
+    </connection>
+    <connection id="6e7a6b55-1878-4319-8229-f65b454fbe70">
+      <console name="Connection 3" type="STANDARD" schema="main" session="Main" />
+    </connection>
+    <connection id="6045bcbb-4513-4b61-8e07-7abb1563b2f6">
+      <console name="Connection 4" type="STANDARD" schema="main" session="Main" />
+    </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="c2c6ce10-900f-42d7-9a9d-d072506717ae" />
+    <connection id="2d336dd4-2f38-4bf0-8072-10092d78c704" />
+    <connection id="97f29fa9-4997-4ecc-bb24-76fe03ec2faf" />
+    <connection id="6e7a6b55-1878-4319-8229-f65b454fbe70" />
+    <connection id="6045bcbb-4513-4b61-8e07-7abb1563b2f6" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="c2c6ce10-900f-42d7-9a9d-d072506717ae" dataset="main.student" active-filter-id="EMPTY_FILTER">
@@ -89,6 +105,354 @@
           <database value="" />
           <files>
             <file path="D:\Android Course\Student_Management\database\student_db" schema="main" />
+          </files>
+          <type value="NONE" />
+          <user value="" />
+          <deprecated-pwd value="" />
+        </database>
+        <properties>
+          <auto-commit value="false" />
+        </properties>
+        <ssh-settings>
+          <active value="false" />
+          <proxy-host value="" />
+          <proxy-port value="22" />
+          <proxy-user value="" />
+          <deprecated-proxy-pwd value="" />
+          <auth-type value="PASSWORD" />
+          <key-file value="" />
+          <key-passphrase value="" />
+        </ssh-settings>
+        <ssl-settings>
+          <active value="false" />
+          <certificate-authority-file value="" />
+          <client-certificate-file value="" />
+          <client-key-file value="" />
+        </ssl-settings>
+        <details>
+          <charset value="UTF-8" />
+          <session-management value="true" />
+          <ddl-file-binding value="true" />
+          <database-logging value="true" />
+          <connect-automatically value="true" />
+          <restore-workspace value="true" />
+          <restore-workspace-deep value="false" />
+          <environment-type value="default" />
+          <connectivity-timeout value="5" />
+          <idle-time-to-disconnect value="30" />
+          <idle-time-to-disconnect-pool value="5" />
+          <credential-expiry-time value="10" />
+          <max-connection-pool-size value="7" />
+          <alternative-statement-delimiter value="" />
+        </details>
+        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false">
+          <object-type-filter use-master-settings="true">
+            <object-type name="SCHEMA" enabled="true" />
+            <object-type name="USER" enabled="true" />
+            <object-type name="ROLE" enabled="true" />
+            <object-type name="PRIVILEGE" enabled="true" />
+            <object-type name="CHARSET" enabled="true" />
+            <object-type name="TABLE" enabled="true" />
+            <object-type name="VIEW" enabled="true" />
+            <object-type name="MATERIALIZED_VIEW" enabled="true" />
+            <object-type name="NESTED_TABLE" enabled="true" />
+            <object-type name="COLUMN" enabled="true" />
+            <object-type name="INDEX" enabled="true" />
+            <object-type name="CONSTRAINT" enabled="true" />
+            <object-type name="DATASET_TRIGGER" enabled="true" />
+            <object-type name="DATABASE_TRIGGER" enabled="true" />
+            <object-type name="SYNONYM" enabled="true" />
+            <object-type name="SEQUENCE" enabled="true" />
+            <object-type name="PROCEDURE" enabled="true" />
+            <object-type name="FUNCTION" enabled="true" />
+            <object-type name="PACKAGE" enabled="true" />
+            <object-type name="TYPE" enabled="true" />
+            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+            <object-type name="ARGUMENT" enabled="true" />
+            <object-type name="DIMENSION" enabled="true" />
+            <object-type name="CLUSTER" enabled="true" />
+            <object-type name="DBLINK" enabled="true" />
+          </object-type-filter>
+          <object-name-filters />
+        </object-filters>
+      </connection>
+      <connection id="2d336dd4-2f38-4bf0-8072-10092d78c704" active="true" signed="false">
+        <database>
+          <name value="Connection 1" />
+          <description value="" />
+          <database-type value="SQLITE" />
+          <config-type value="BASIC" />
+          <database-version value="3.21" />
+          <driver-source value="BUILTIN" />
+          <driver-library value="" />
+          <driver value="" />
+          <url-type value="FILE" />
+          <host value="" />
+          <port value="" />
+          <database value="" />
+          <files>
+            <file path="C:\Users\Admin\Documents\Tài Liệu Năm 3 (2021-2022)\student_manager_db" schema="main" />
+          </files>
+          <type value="NONE" />
+          <user value="" />
+          <deprecated-pwd value="" />
+        </database>
+        <properties>
+          <auto-commit value="false" />
+        </properties>
+        <ssh-settings>
+          <active value="false" />
+          <proxy-host value="" />
+          <proxy-port value="22" />
+          <proxy-user value="" />
+          <deprecated-proxy-pwd value="" />
+          <auth-type value="PASSWORD" />
+          <key-file value="" />
+          <key-passphrase value="" />
+        </ssh-settings>
+        <ssl-settings>
+          <active value="false" />
+          <certificate-authority-file value="" />
+          <client-certificate-file value="" />
+          <client-key-file value="" />
+        </ssl-settings>
+        <details>
+          <charset value="UTF-8" />
+          <session-management value="true" />
+          <ddl-file-binding value="true" />
+          <database-logging value="true" />
+          <connect-automatically value="true" />
+          <restore-workspace value="true" />
+          <restore-workspace-deep value="false" />
+          <environment-type value="default" />
+          <connectivity-timeout value="5" />
+          <idle-time-to-disconnect value="30" />
+          <idle-time-to-disconnect-pool value="5" />
+          <credential-expiry-time value="10" />
+          <max-connection-pool-size value="7" />
+          <alternative-statement-delimiter value="" />
+        </details>
+        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false">
+          <object-type-filter use-master-settings="true">
+            <object-type name="SCHEMA" enabled="true" />
+            <object-type name="USER" enabled="true" />
+            <object-type name="ROLE" enabled="true" />
+            <object-type name="PRIVILEGE" enabled="true" />
+            <object-type name="CHARSET" enabled="true" />
+            <object-type name="TABLE" enabled="true" />
+            <object-type name="VIEW" enabled="true" />
+            <object-type name="MATERIALIZED_VIEW" enabled="true" />
+            <object-type name="NESTED_TABLE" enabled="true" />
+            <object-type name="COLUMN" enabled="true" />
+            <object-type name="INDEX" enabled="true" />
+            <object-type name="CONSTRAINT" enabled="true" />
+            <object-type name="DATASET_TRIGGER" enabled="true" />
+            <object-type name="DATABASE_TRIGGER" enabled="true" />
+            <object-type name="SYNONYM" enabled="true" />
+            <object-type name="SEQUENCE" enabled="true" />
+            <object-type name="PROCEDURE" enabled="true" />
+            <object-type name="FUNCTION" enabled="true" />
+            <object-type name="PACKAGE" enabled="true" />
+            <object-type name="TYPE" enabled="true" />
+            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+            <object-type name="ARGUMENT" enabled="true" />
+            <object-type name="DIMENSION" enabled="true" />
+            <object-type name="CLUSTER" enabled="true" />
+            <object-type name="DBLINK" enabled="true" />
+          </object-type-filter>
+          <object-name-filters />
+        </object-filters>
+      </connection>
+      <connection id="97f29fa9-4997-4ecc-bb24-76fe03ec2faf" active="true" signed="false">
+        <database>
+          <name value="Connection 2" />
+          <description value="" />
+          <database-type value="SQLITE" />
+          <config-type value="BASIC" />
+          <database-version value="3.21" />
+          <driver-source value="BUILTIN" />
+          <driver-library value="" />
+          <driver value="" />
+          <url-type value="FILE" />
+          <host value="" />
+          <port value="" />
+          <database value="" />
+          <files>
+            <file path="C:\Users\Admin\Downloads\database\student_manager_db" schema="main" />
+          </files>
+          <type value="NONE" />
+          <user value="" />
+          <deprecated-pwd value="" />
+        </database>
+        <properties>
+          <auto-commit value="false" />
+        </properties>
+        <ssh-settings>
+          <active value="false" />
+          <proxy-host value="" />
+          <proxy-port value="22" />
+          <proxy-user value="" />
+          <deprecated-proxy-pwd value="" />
+          <auth-type value="PASSWORD" />
+          <key-file value="" />
+          <key-passphrase value="" />
+        </ssh-settings>
+        <ssl-settings>
+          <active value="false" />
+          <certificate-authority-file value="" />
+          <client-certificate-file value="" />
+          <client-key-file value="" />
+        </ssl-settings>
+        <details>
+          <charset value="UTF-8" />
+          <session-management value="true" />
+          <ddl-file-binding value="true" />
+          <database-logging value="true" />
+          <connect-automatically value="true" />
+          <restore-workspace value="true" />
+          <restore-workspace-deep value="false" />
+          <environment-type value="default" />
+          <connectivity-timeout value="5" />
+          <idle-time-to-disconnect value="30" />
+          <idle-time-to-disconnect-pool value="5" />
+          <credential-expiry-time value="10" />
+          <max-connection-pool-size value="7" />
+          <alternative-statement-delimiter value="" />
+        </details>
+        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false">
+          <object-type-filter use-master-settings="true">
+            <object-type name="SCHEMA" enabled="true" />
+            <object-type name="USER" enabled="true" />
+            <object-type name="ROLE" enabled="true" />
+            <object-type name="PRIVILEGE" enabled="true" />
+            <object-type name="CHARSET" enabled="true" />
+            <object-type name="TABLE" enabled="true" />
+            <object-type name="VIEW" enabled="true" />
+            <object-type name="MATERIALIZED_VIEW" enabled="true" />
+            <object-type name="NESTED_TABLE" enabled="true" />
+            <object-type name="COLUMN" enabled="true" />
+            <object-type name="INDEX" enabled="true" />
+            <object-type name="CONSTRAINT" enabled="true" />
+            <object-type name="DATASET_TRIGGER" enabled="true" />
+            <object-type name="DATABASE_TRIGGER" enabled="true" />
+            <object-type name="SYNONYM" enabled="true" />
+            <object-type name="SEQUENCE" enabled="true" />
+            <object-type name="PROCEDURE" enabled="true" />
+            <object-type name="FUNCTION" enabled="true" />
+            <object-type name="PACKAGE" enabled="true" />
+            <object-type name="TYPE" enabled="true" />
+            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+            <object-type name="ARGUMENT" enabled="true" />
+            <object-type name="DIMENSION" enabled="true" />
+            <object-type name="CLUSTER" enabled="true" />
+            <object-type name="DBLINK" enabled="true" />
+          </object-type-filter>
+          <object-name-filters />
+        </object-filters>
+      </connection>
+      <connection id="6e7a6b55-1878-4319-8229-f65b454fbe70" active="true" signed="false">
+        <database>
+          <name value="Connection 3" />
+          <description value="" />
+          <database-type value="SQLITE" />
+          <config-type value="BASIC" />
+          <database-version value="3.21" />
+          <driver-source value="BUILTIN" />
+          <driver-library value="" />
+          <driver value="" />
+          <url-type value="FILE" />
+          <host value="" />
+          <port value="" />
+          <database value="" />
+          <files>
+            <file path="C:\Users\Admin\Documents\HoAnhTin\student_manager_db" schema="main" />
+          </files>
+          <type value="NONE" />
+          <user value="" />
+          <deprecated-pwd value="" />
+        </database>
+        <properties>
+          <auto-commit value="false" />
+        </properties>
+        <ssh-settings>
+          <active value="false" />
+          <proxy-host value="" />
+          <proxy-port value="22" />
+          <proxy-user value="" />
+          <deprecated-proxy-pwd value="" />
+          <auth-type value="PASSWORD" />
+          <key-file value="" />
+          <key-passphrase value="" />
+        </ssh-settings>
+        <ssl-settings>
+          <active value="false" />
+          <certificate-authority-file value="" />
+          <client-certificate-file value="" />
+          <client-key-file value="" />
+        </ssl-settings>
+        <details>
+          <charset value="UTF-8" />
+          <session-management value="true" />
+          <ddl-file-binding value="true" />
+          <database-logging value="true" />
+          <connect-automatically value="true" />
+          <restore-workspace value="true" />
+          <restore-workspace-deep value="false" />
+          <environment-type value="default" />
+          <connectivity-timeout value="5" />
+          <idle-time-to-disconnect value="30" />
+          <idle-time-to-disconnect-pool value="5" />
+          <credential-expiry-time value="10" />
+          <max-connection-pool-size value="7" />
+          <alternative-statement-delimiter value="" />
+        </details>
+        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false">
+          <object-type-filter use-master-settings="true">
+            <object-type name="SCHEMA" enabled="true" />
+            <object-type name="USER" enabled="true" />
+            <object-type name="ROLE" enabled="true" />
+            <object-type name="PRIVILEGE" enabled="true" />
+            <object-type name="CHARSET" enabled="true" />
+            <object-type name="TABLE" enabled="true" />
+            <object-type name="VIEW" enabled="true" />
+            <object-type name="MATERIALIZED_VIEW" enabled="true" />
+            <object-type name="NESTED_TABLE" enabled="true" />
+            <object-type name="COLUMN" enabled="true" />
+            <object-type name="INDEX" enabled="true" />
+            <object-type name="CONSTRAINT" enabled="true" />
+            <object-type name="DATASET_TRIGGER" enabled="true" />
+            <object-type name="DATABASE_TRIGGER" enabled="true" />
+            <object-type name="SYNONYM" enabled="true" />
+            <object-type name="SEQUENCE" enabled="true" />
+            <object-type name="PROCEDURE" enabled="true" />
+            <object-type name="FUNCTION" enabled="true" />
+            <object-type name="PACKAGE" enabled="true" />
+            <object-type name="TYPE" enabled="true" />
+            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+            <object-type name="ARGUMENT" enabled="true" />
+            <object-type name="DIMENSION" enabled="true" />
+            <object-type name="CLUSTER" enabled="true" />
+            <object-type name="DBLINK" enabled="true" />
+          </object-type-filter>
+          <object-name-filters />
+        </object-filters>
+      </connection>
+      <connection id="6045bcbb-4513-4b61-8e07-7abb1563b2f6" active="true" signed="false">
+        <database>
+          <name value="Connection 4" />
+          <description value="" />
+          <database-type value="SQLITE" />
+          <config-type value="BASIC" />
+          <database-version value="3.21" />
+          <driver-source value="BUILTIN" />
+          <driver-library value="" />
+          <driver value="" />
+          <url-type value="FILE" />
+          <host value="" />
+          <port value="" />
+          <database value="" />
+          <files>
+            <file path="C:\Users\Admin\Documents\AndroidStudio\DeviceExplorer\-google_nexus_5x-192.168.35.101_5555\data\data\com.example.student_management\databases\student_manager_db" schema="main" />
           </files>
           <type value="NONE" />
           <user value="" />

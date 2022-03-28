@@ -47,6 +47,44 @@ style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
     />
 
 </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:padding="10dp"
+        app:startIconDrawable="@drawable/ic_email_24"
+        android:id="@+id/outlinedTextField3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:endIconMode="clear_text"
+        app:helperText="Bắt Buộc *"
+        app:helperTextTextColor="@color/red"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập Địa Chỉ Email"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:padding="10dp"
+        app:startIconDrawable="@drawable/ic_address"
+        android:id="@+id/outlinedTextField4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:endIconMode="clear_text"
+        app:helperText="Bắt Buộc *"
+        app:helperTextTextColor="@color/red"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập Địa Chỉ Thường Trú"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
 
 <com.google.android.material.button.MaterialButton
 android:id="@+id/btn_add"

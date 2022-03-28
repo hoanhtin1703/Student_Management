@@ -11,7 +11,7 @@ abstract class Student_Database: RoomDatabase(){
     abstract fun studentDao():Student
     companion object{
         private var INSTANCE: Student_Database?= null
-        private val DB_NAME = "student_db"
+        private val DB_NAME = "student_manager_db"
         fun getDatabase(context: Context): Student_Database {
             val tempInstance = INSTANCE
             if (tempInstance != null) {
